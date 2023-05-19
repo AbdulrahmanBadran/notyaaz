@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+body{
+    background: linear-gradient(#8b03a6,hwb(217 0% 85% / 0.833));
+    height:100vh ;
+ font-family: system-ui;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+header{
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+header h1 {
+    font-size: 30px;
+    text-transform:uppercase;
+    color: #fff;
+}
+header ul{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin-right: 30px;
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+header ul li a:hover,.active1{
+    
+    background: #fff;
+    color: #000;
+}
